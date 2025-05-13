@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Surveillance</title>
+  <link rel="stylesheet" href="gallery.css" />
+</head>
+<body>
+  <a href="index.html"><h1 class="page-title">2025/05/10 Jeewoo Kim</h1></a>
+  <div class="gallery">
+    <!-- 15 grid images -->
+    <!-- Use a loop if templating, otherwise list manually -->
+    <!-- Just duplicate the div and update the number -->
+    <!-- Image alt is optional for accessibility -->
+    <!-- You can also automate with JS later if you want -->
+    <!-- Start of loop -->
+    <div class="photo" onclick="openModal(0)"><img src="map1.png" alt="Map 1" /></div>
+    <div class="photo" onclick="openModal(1)"><img src="map2.png" alt="Map 2" /></div>
+    <div class="photo" onclick="openModal(2)"><img src="map3.png" alt="Map 3" /></div>
+    <div class="photo" onclick="openModal(3)"><img src="map4.png" alt="Map 4" /></div>
+    <div class="photo" onclick="openModal(4)"><img src="map5.png" alt="Map 5" /></div>
+    <div class="photo" onclick="openModal(5)"><img src="map6.png" alt="Map 6" /></div>
+    <div class="photo" onclick="openModal(6)"><img src="map7.png" alt="Map 7" /></div>
+    <div class="photo" onclick="openModal(7)"><img src="map8.png" alt="Map 8" /></div>
+    <div class="photo" onclick="openModal(8)"><img src="map9.png" alt="Map 9" /></div>
+    <div class="photo" onclick="openModal(9)"><img src="map10.png" alt="Map 10" /></div>
+    <div class="photo" onclick="openModal(10)"><img src="map11.png" alt="Map 11" /></div>
+    <div class="photo" onclick="openModal(11)"><img src="map12.png" alt="Map 12" /></div>
+    <div class="photo" onclick="openModal(12)"><img src="map13.png" alt="Map 13" /></div>
+    <div class="photo" onclick="openModal(13)"><img src="map14.png" alt="Map 14" /></div>
+    <div class="photo" onclick="openModal(14)"><img src="map15.png" alt="Map 15" /></div>
+    <!-- End of loop -->
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img id="modal-img" src="" alt="Popup Image" />
+      <div class="info">
+        <p><strong>Time:</strong> <span id="time"></span></p>
+        <p><strong>Location:</strong> <span id="location"></span></p>
+        <p><strong>Observation:</strong></p>
+        <p id="note"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="gallery.js"></script>
+</body>
+</html>
