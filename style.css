@@ -1,0 +1,851 @@
+body {
+    display: flex;
+    /*justify-content: center;
+    align-items: center;*/
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    cursor: url('cursor.png'), auto;
+  }
+
+.eye {
+    width: 9%; /* Oval width */
+    height: 4%; /* Oval height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;;
+    left: 26%;
+    top: 54.2%;
+  }
+
+  .pupil {
+    width: 50%;
+    height: 110%;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(0, 0); /* Default to center */
+    left: 0%;
+    top: 0%;
+  }
+
+.eye2 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  /*background-color: white;
+  /*border: 2px solid black;
+  border-radius: 50% / 50%; /* Oval shape */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 47%;
+  }
+
+  .pupil2 {
+    width: 50%;
+    height: 110%;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(0, 0); /* Default to center */
+  }
+
+  .eye3 {
+    width: 9%; /* Oval width */
+    height: 4%; /* Oval height */
+    /*background-color: white;
+    /*border: 2px solid black;
+    border-radius: 50% / 50%; /* Oval shape */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;;
+    top: 54.2%;
+    left: 24%;
+    }
+  
+    .pupil3 {
+      width: 50%;
+      height: 110%;
+      background-color: black;
+      border-radius: 50%;
+      position: absolute;
+      transform: translate(0, 0); /* Default to center */
+    }
+    .eye4 {
+      width: 9%; /* Oval width */
+      height: 4%; /* Oval height */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;;
+      top: 54.2%;
+      left: 47%;
+      }
+    
+      .pupil4 {
+        width: 50%;
+        height: 110%;
+        background-color: black;
+        border-radius: 50%;
+        position: absolute;
+        transform: translate(0, 0); /* Default to center */
+      }
+
+      .eye5 {
+        width: 9%; /* Oval width */
+        height: 4%; /* Oval height */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;;
+        top: 54.2%;
+        left: 24%;
+        }
+      
+        .pupil5 {
+          width: 50%;
+          height: 110%;
+          background-color: black;
+          border-radius: 50%;
+          position: absolute;
+          transform: translate(0, 0); /* Default to center */
+        }
+
+        .eye6 {
+          width: 9%; /* Oval width */
+          height: 4%; /* Oval height */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;;
+          top: 54.2%;
+          left: 47%;
+          }
+        
+          .pupil6 {
+            width: 50%;
+            height: 110%;
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+            transform: translate(0, 0); /* Default to center */
+          }
+.eye7 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 24%;
+}
+          
+.pupil7 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye8 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 47%;
+}
+          
+.pupil8 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye9 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 25%;
+}
+          
+.pupil9 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye10 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 47.5%;
+}
+          
+.pupil10 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye11 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 24%;
+}
+          
+.pupil11 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye12 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 47.3%;
+}
+          
+.pupil12 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye13 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 24%;
+}
+          
+.pupil13 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye14 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 47%;
+}
+          
+.pupil14 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye15 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 24%;
+}
+          
+.pupil15 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye16 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 47%;
+}
+          
+.pupil16 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye17 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 24%;
+}
+          
+.pupil17 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye18 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 47.2%;
+}
+          
+.pupil18 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye19 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 24.3%;
+}
+          
+.pupil19 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye20 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 47.2%;
+}
+          
+.pupil20 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye21 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 24%;
+}
+          
+.pupil21 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye22 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 47.2%;
+}
+          
+.pupil22 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye23 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 24%;
+}
+          
+.pupil23 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye24 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 47.2%;
+}
+          
+.pupil24 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye25 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 24%;
+}
+          
+.pupil25 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye26 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 47.2%;
+}
+          
+.pupil26 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye27 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 24%;
+}
+          
+.pupil27 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye28 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 47.2%;
+}
+          
+.pupil28 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye29 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 24%;
+}
+          
+.pupil29 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye30 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 47.2%;
+}
+          
+.pupil30 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye31 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 24%;
+}
+          
+.pupil31 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye32 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 47.2%;
+}
+          
+.pupil32 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye33 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 24%;
+}
+          
+.pupil33 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye34 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 47.2%;
+}
+          
+.pupil34 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye35 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 24%;
+}
+          
+.pupil35 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+.eye36 {
+  width: 9%; /* Oval width */
+  height: 4%; /* Oval height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;;
+  top: 54.2%;
+  left: 47.2%;
+}
+          
+.pupil36 {
+  width: 50%;
+  height: 110%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(0, 0); /* Default to center */
+}
+
+  .marilyn-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30vh, 1fr)); /* Fit as many 30vh images as possible */
+    grid-template-rows: repeat(auto-fill, minmax(30vh, 1fr)); /* Fit as many 30vh images as possible */
+    gap: 0; /* No gaps between images */
+    width: 100vw; /* Full screen width */
+    height: 100vh; /* Full screen height */
+    overflow: hidden; /* Prevents scrolling */
+  }
+  
+  .marilyn-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .marilyn-grid .item {
+    position: relative;
+
+  }
+  .marilyn-grid .item2 {
+    position: relative;
+
+  }
+  .marilyn-grid .item3 {
+    position: relative;
+
+  }
+  .marilyn-grid .item4 {
+    position: relative;
+
+  }
+  .marilyn-grid .item5 {
+    position: relative;
+
+  }
+  .marilyn-grid .item6 {
+    position: relative;
+
+  }
+  .marilyn-grid .item7 {
+    position: relative;
+
+  }
+  .marilyn-grid .item8 {
+    position: relative;
+
+  }
+  .marilyn-grid .item9 {
+    position: relative;
+
+  }
+  .marilyn-grid .item10 {
+    position: relative;
+
+  }
+  .marilyn-grid .item11 {
+    position: relative;
+
+  }
+  .marilyn-grid .item12 {
+    position: relative;
+
+  }
+  .marilyn-grid .item13 {
+    position: relative;
+
+  }
+  .marilyn-grid .item14 {
+    position: relative;
+
+  }
+  .marilyn-grid .item15 {
+    position: relative;
+
+  }
+  .marilyn-grid .item16 {
+    position: relative;
+
+  }
+  .marilyn-grid .item17 {
+    position: relative;
+
+  }
+  .marilyn-grid .item18 {
+    position: relative;
+
+  }
+
+  .transition-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at center, rgba(255,255,255,0.9) 0%, rgba(0,0,0,0.8) 100%);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .transition-overlay.active {
+    animation: rippleOut 1.2s ease forwards;
+  }
+  
+  @keyframes rippleOut {
+    0% {
+      clip-path: circle(0% at var(--x) var(--y));
+      opacity: 1;
+    }
+    100% {
+      clip-path: circle(150% at var(--x) var(--y));
+      opacity: 1;
+    }
+  }
+  /* Ripple effect */
+.ripple {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  background: radial-gradient(
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(255, 255, 255, 0.5) 60%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  filter: blur(20px);
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  animation: rippleAnim 1s ease-out forwards;
+  z-index: 9999;
+}
+
+@keyframes rippleAnim {
+  from {
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 1;
+  }
+  to {
+    transform: translate(-50%, -50%) scale(2);
+    opacity: 0;
+  }
+}
